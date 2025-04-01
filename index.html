@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CyberOS Servicios</title>
+    <title>CyberOS Lab</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
@@ -12,54 +12,52 @@
 </head>
 <body>
     <header class="hero">
+        <nav class="header-nav">
+            <a href="index.html" class="active">Inicio</a>
+            <a href="#about">Nosotros</a>
+            <a href="servicios.html">Distribuciones</a>
+            <a href="galeria.html">Galería</a>
+            <a href="#contact">Contacto</a>
+        </nav>
         <div class="hero-content">
             <h1>Seguridad y Sistemas Linux</h1>
             <p>Explorando el universo del software libre, ciberseguridad y desarrollo seguro.</p>
-            <p class="hero-description">Descubre el potencial de los sistemas operativos basados en el kernel Linux, desde distribuciones para pentesting hasta opciones para uso diario. Impulsa tu conocimiento en seguridad informática y forma parte de la comunidad de código abierto.</p>
+            <p class="hero-description">Descubre el potencial de los sistemas basados en Linux, desde pentesting hasta uso diario. Impulsa tu conocimiento en seguridad y forma parte de la comunidad de código abierto.</p>
             <a href="#about" class="btn">Descubrir Sistemas</a>
         </div>
     </header>
 
-    <nav class="navbar">
-        <a href="index.html" class="active">Inicio</a>
-        <a href="#about">Nosotros</a>
-        <a href="servicios.html">Distribuciones</a>
-        <a href="galeria.html">Galería</a>
-        <a href="#contact">Contacto</a>
-    </nav>
-
     <section id="about" class="about">
         <h2>Nuestra Visión</h2>
-        <p>En CyberOS Lab nos dedicamos a explorar, analizar y dominar sistemas operativos basados en Linux y herramientas de seguridad informática. Creemos en el software libre y en el poder de las tecnologías de código abierto para construir un mundo digital más seguro.</p>
-        <p>Nuestro objetivo es proporcionar información detallada sobre distribuciones especializadas en seguridad y administración de sistemas, ayudando tanto a principiantes como a profesionales a encontrar la herramienta perfecta para sus necesidades.</p>
+        <p>En CyberOS Lab nos dedicamos a explorar sistemas Linux y herramientas de seguridad. Creemos en el software libre y en el poder de las tecnologías de código abierto para construir un mundo digital más seguro.</p>
         <div class="gallery">
             <img src="img/kaliLinux.jpg" alt="Kali Linux">
             <img src="img/parrotOS.jpg" alt="Parrot OS">
         </div>
-        <p class="img-caption">Kali Linux y Parrot OS: Distribuciones enfocadas en seguridad, pentesting y análisis forense, con cientos de herramientas preconfiguradas para profesionales.</p>
+        <p class="img-caption">Kali Linux y Parrot OS: Distribuciones enfocadas en seguridad, pentesting y análisis forense.</p>
     </section>
 
     <section id="services" class="services">
         <h2>Sistemas Destacados</h2>
-        <p class="section-intro">Linux ofrece una amplia variedad de distribuciones para todo tipo de necesidades, desde seguridad hasta servidores, desarrollo o uso doméstico.</p>
+        <p class="section-intro">Linux ofrece una amplia variedad de distribuciones para todo tipo de necesidades.</p>
         <div class="service-container">
             <div class="service-card">
                 <img src="img/kaliLinux.jpg" alt="Kali Linux">
                 <h3>Kali Linux</h3>
-                <p>Distribución especializada en pruebas de penetración y auditoría de seguridad. Incluye cientos de herramientas preinstaladas para profesionales de ciberseguridad.</p>
-                <p class="extra-info">Desarrollada por Offensive Security, es la evolución de BackTrack. Utilizada por pentesters, auditores de seguridad y entusiastas de la seguridad informática en todo el mundo.</p>
+                <p>Distribución especializada en pruebas de penetración y auditoría de seguridad.</p>
+                <p class="extra-info">Desarrollada por Offensive Security, incluye cientos de herramientas para profesionales de ciberseguridad.</p>
             </div>
             <div class="service-card">
                 <img src="img/Ubuntu.jpg" alt="Ubuntu">
                 <h3>Ubuntu</h3>
-                <p>Distribución Linux popular y amigable para usuarios principiantes y avanzados. Perfecta para entornos de escritorio, servidores y desarrollo.</p>
-                <p class="extra-info">Basada en Debian y desarrollada por Canonical, Ubuntu cuenta con ciclos de lanzamiento regulares y versiones LTS (Long Term Support) con 5 años de soporte.</p>
+                <p>Distribución Linux popular y amigable para usuarios principiantes y avanzados.</p>
+                <p class="extra-info">Basada en Debian y desarrollada por Canonical, ofrece versiones LTS con 5 años de soporte.</p>
             </div>
             <div class="service-card">
                 <img src="img/ArchLinux.png" alt="Arch Linux">
                 <h3>Arch Linux</h3>
-                <p>Distribución ligera y flexible que sigue el principio KISS (Keep It Simple, Stupid). Ideal para usuarios avanzados que buscan personalización.</p>
-                <p class="extra-info">Con su sistema de actualización continua (rolling release), siempre tendrás acceso a las últimas versiones de software. Su documentación Wiki es considerada una de las mejores en el mundo Linux.</p>
+                <p>Distribución ligera y flexible que sigue el principio KISS. Ideal para usuarios avanzados.</p>
+                <p class="extra-info">Con su sistema de actualización continua, siempre tendrás las últimas versiones de software.</p>
             </div>
         </div>
         <a href="servicios.html" class="btn">Explorar Distribuciones</a>
@@ -67,8 +65,8 @@
 
     <section id="contact" class="contact">
         <h2>Conecta con Nuestra Comunidad</h2>
-        <p>¿Interesado en aprender más sobre Linux y seguridad informática? Únete a nuestra comunidad y comparte conocimientos.</p>
-        <p class="contact-extra">Forma parte de discusiones sobre herramientas de código abierto, tendencias en ciberseguridad y nuevas distribuciones. Compartir conocimiento es la base de la filosofía Linux.</p>
+        <p>¿Interesado en aprender más sobre Linux y seguridad informática? Únete a nuestra comunidad.</p>
+        <p class="contact-extra">Forma parte de discusiones sobre herramientas de código abierto y tendencias en ciberseguridad.</p>
         <a href="mailto:security@cyberoslab.com" class="btn">Unirse Ahora</a>
     </section>
 
