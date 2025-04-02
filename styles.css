@@ -268,6 +268,44 @@ section h2 {
   opacity: 0.9;
 }
 
+/* Estilos para la sección de contacto */
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin: 2rem 0;
+  text-align: left;
+}
+
+.personal-info, .map-container {
+  background-color: rgba(255, 255, 255, 0.05);
+  border-radius: 8px;
+  padding: 1.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.personal-info h3, .map-container h3 {
+  color: #00b56a;
+  margin-bottom: 1.5rem;
+  font-size: 1.4rem;
+  text-align: center;
+}
+
+.personal-info p {
+  margin-bottom: 0.7rem;
+  text-align: left;
+}
+
+.personal-info .btn {
+  margin-top: 1.5rem;
+  display: inline-block;
+}
+
+.map-container iframe {
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
 /* Footer */
 .footer {
   background-color: rgba(0, 0, 0, 0.3);
